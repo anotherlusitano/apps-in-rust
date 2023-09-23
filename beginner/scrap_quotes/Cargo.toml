@@ -1,0 +1,11 @@
+[package]
+name = "scrap_quotes"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+scraper = "0.17.1"
+reqwest = { version = "0.11", features = ["blocking"] }
+tokio = { version = "1.32.0", features = ["full"] }
